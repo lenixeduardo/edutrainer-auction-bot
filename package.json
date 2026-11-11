@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "demo": "node src/demo.js"
+    "demo": "node src/demo.js",
+    "spike:poll": "node spike/poll-probe.mjs"
   },
   "engines": {
     "node": ">=22"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "pino": "^9.0.0"
   }
 }
