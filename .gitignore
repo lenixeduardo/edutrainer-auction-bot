@@ -1,0 +1,6 @@
+node_modules/
+.local-auth/
+.local-evidence/
+.env
+.env.*
+!.env.example
